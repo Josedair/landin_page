@@ -33,6 +33,7 @@ h1, h2 {
 .image_gallery{
     display: flex;
     gap: 58px;
+    flex-wrap: wrap;
 }
 .header{
     display: flex;
@@ -46,6 +47,11 @@ h1, h2 {
     font-size: 24px;
     
     font-weight: 900;
+}
+.logo_image {
+    border: .5px solid #3882F6;
+    border-radius: 15px;
+    padding: .5px;
 }
  ul{
     list-style: none;
