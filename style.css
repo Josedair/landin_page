@@ -7,6 +7,21 @@ h1, h2 {
     margin: 0;
     padding: 0;
 }
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #4f4f50;
+}
+a:visited{
+    color: #e5e7eb;
+}
 .pics {
     width: 300px;
     height: 400px;
@@ -30,7 +45,69 @@ h1, h2 {
     font-size: 36px;
     font-weight: bolder;
 }
+
+.row3{
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 48px;
+    
+}
+.row4{
+    padding: 48px;
+    align-items: center;
+    color: #F9FAF8;
+}
+.call2Action{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 60%;
+    padding: 36px;
+    border-radius: 10px;
+}
+.callTextHeader{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.callSubtext{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.callbtn{
+    border-radius: 15px;
+    border: 3px solid #E5E7EB;
+    background-color: #3882F6;
+    padding: 12px 38px;
+    font-size: 18px;
+    color:#E5E7EB ;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.callbtn:hover{
+    cursor: pointer;
+    background-color: #5591f1;
+ }
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    
+}
+.quote_text{
+    font-weight: lighter;
+    padding: 10px;
+    font-size: 36px;
+}
+.author{
+    
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+}
 .image_gallery{
+    margin-top: 36px;
     display: flex;
     gap: 58px;
     flex-wrap: wrap;
@@ -45,18 +122,19 @@ h1, h2 {
 .logo{
     margin: 0;
     font-size: 24px;
-    
     font-weight: 900;
 }
 .logo_image {
     border: .5px solid #3882F6;
     border-radius: 15px;
     padding: .5px;
+    justify-self: baseline;
+    
 }
  ul{
     list-style: none;
     display: flex;
-    gap: 8px;
+    gap: 24px;
     margin: 0;
     font-size: 18px;
     color: #e5e7eb;
